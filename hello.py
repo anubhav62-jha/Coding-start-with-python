@@ -56,12 +56,66 @@
 # print("--------------------------------------")
 # name, age, cource = "anubhav", 23, "hindi"
 # print(age)
-print("--------------------------------------")
-str1 = "hellow"
-lenOfCharecter = len(str1)
-print(str1)
-print(lenOfCharecter)
-str2 = " world "
-lenOfCharecter2 = len(str2)
-final_srt = str1 + " " + str2
-print(final_srt)
+# print("--------------------------------------")
+# str1 = "hellow"
+# lenOfCharecter = len(str1)
+# print(str1)
+# print(lenOfCharecter)
+# str2 = " world "
+# lenOfCharecter2 = len(str2)
+# final_srt = str1 + " " + str2
+# print(final_srt)
+# print("--------------------------------------")
+# Identity = "Anubhav jha"
+# print(Identity[0:])
+# print(Identity[8:11])
+# print(Identity[8:])
+# print(Identity[:7])
+# print(Identity[-5 :-3])
+# print(Identity.endswith("hav"))
+# print(Identity.replace("jha", "khan"))
+# print(Identity.find("jha"))
+# print("--------------------------------------")
+# Details = input("enter your name so that we can give you the leanght:")
+# leanght = len(Details)
+# print("leanght of your output is:", leanght)
+
+# str3 = "Us corrency sing is:$ and it is $$"
+# print(str3.count("$"))
+# print("--------------------------------------")
+# CONDITION(if / else) trafic light
+# light = "Red"
+# if(light == "Red"):
+#     print("you have to stop")
+# elif(light == "green" ):
+#     print("you can go")
+# elif(light == "yellow"):
+#     print("you have to look around")
+# else:
+#     print("the light is broken")
+# print("--------------------------------------")
+# try to make it with the input and the concept would be report card
+# Score = int(input("you have to enter your score:"))
+# if(Score >= 90 and Score < 100):
+#     grade = "A"
+#     print("Here is your grade:", grade)
+# elif(Score >= 80):
+#         grade = "B"
+#         print("Here is your grade:", grade)
+# elif(Score >= 70):
+#         grade = "C"
+#         print("Here is your grade:", grade)
+# elif(Score >=60):
+#         grade = "D"
+#         print("Here is your grade:", grade)
+
+# else:
+#         print("you are fail for this year")
+# print("--------------------------------------")
+#age checker
+age = int(input("enter your age:"))
+if(age >= 18):
+       print("you are an adult:", age)
+else:
+       print("you are a minor:", age)
+       # print("--------------------------------------")
