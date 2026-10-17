@@ -113,9 +113,72 @@
 #         print("you are fail for this year")
 # print("--------------------------------------")
 #age checker
-age = int(input("enter your age:"))
-if(age >= 18):
-       print("you are an adult:", age)
-else:
-       print("you are a minor:", age)
+# age = int(input("enter your age:"))
+# if(age >= 18):
+#        print("you are an adult:", age)
+# else:
+#        print("you are a minor:", age)
        # print("--------------------------------------")
+       #even&odd
+# number = int(input("Enter your number:"))
+# if(number % 2 ==0):
+#               print("this number is even")
+# else:
+#               print("this number is odd")
+                     # print("--------------------------------------")
+#name Analyzer
+# nameOfTheUser =input("enter your name:")
+# print(nameOfTheUser.upper())
+# print(nameOfTheUser.lower())
+# print(len(nameOfTheUser))
+                     # print("--------------------------------------")
+# shopingAmount = int(input("Kindly type the amount of your shoping:₹"))
+# if( shopingAmount >= 5000):
+#     Discount = shopingAmount * 20 /100
+# elif(shopingAmount >= 2000):
+#     Discount = shopingAmount * 10 / 100
+# else:
+#     Discount = 0
+# Final_Amount = shopingAmount - Discount
+# print("price of the shoping amount:₹", shopingAmount)
+# print("Discount price:₹", Discount)
+# print("final amount", Final_Amount)
+# print("--------------------------------------")
+# password lenght checker
+# Password = input("enter your password-->")
+# lenpassword = len(Password)
+# countPass = len(Password)
+# if( lenpassword>= 8):
+#     print("password length accepted ", countPass)
+# else:
+#     print("password too short", countPass)
+    #  simple calculater
+# num1 = int(input("enter your first number:"))
+# oprater = input("enter your oprater(+, -, *, /)")
+# num2 = int(input("enter your secend number:"))
+# if( oprater == "+"):
+#         print(num1 + num2)
+# elif(oprater == "-"):
+#     print(num1 - num2)
+# elif( oprater == "*"):
+#       print(num1 * num2)
+# elif(oprater == "/"):
+#        print(num1 / num2)
+# else:
+#       print("wrong oprater")
+      # print("--------------------------------------")
+    #list
+  #append(if you want to any new value in list)
+list = [4, 5, 3, 2]
+list.append(9)
+print(list.sort())  ## value comes in asending order
+print(list)
+          # print("--------------------------------------")
+list = [6, 7, 8, 3, 6]
+print(list.sort(reverse=True))  ## value comes in desanding order
+print(list)
+          # print("--------------------------------------")
+ #reverse 
+list = [5, 7, 2, 7, 8, 9]
+list.reverse()
+print(list)
