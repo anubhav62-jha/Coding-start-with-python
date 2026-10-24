@@ -169,16 +169,17 @@
       # print("--------------------------------------")
     #list
   #append(if you want to any new value in list)
-list = [4, 5, 3, 2]
-list.append(9)
-print(list.sort())  ## value comes in asending order
-print(list)
+# list = [4, 5, 3, 2]
+# list.append(9)
+# print(list.sort())  ## value comes in asending order
+# print(list)
+#           # print("--------------------------------------")
+# list = [6, 7, 8, 3, 6]
+# print(list.sort(reverse=True))  ## value comes in desanding order
+# print(list)
+#           # print("--------------------------------------")
+#  #reverse 
+# list = [5, 7, 2, 7, 8, 9]
+# list.reverse()
+# print(list)
           # print("--------------------------------------")
-list = [6, 7, 8, 3, 6]
-print(list.sort(reverse=True))  ## value comes in desanding order
-print(list)
-          # print("--------------------------------------")
- #reverse 
-list = [5, 7, 2, 7, 8, 9]
-list.reverse()
-print(list)
